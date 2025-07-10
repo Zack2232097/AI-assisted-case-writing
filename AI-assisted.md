@@ -16,7 +16,7 @@
 由于测试函数中涉及个性化的参数（如用户名、ID 等），最后我只需手动补充这些变量即可。
 
 
-## 给chatgpt的提示
+## 给ChatGPT的提示
 我编写好了一个接口的测试用例。请你按照该用例和所提供的接口文档，补全其它接口的测试用例。不需要输出过程，也不要发散或改造代码
 
 在test.py中编写test_函数 (注意! 每个接口的参数不同, 空着就行, 我自己会修改)
@@ -116,7 +116,6 @@ class ApiPaths:
     VIEW_QUESTION = "/discuss/viewQuestion"
     VIEW_ANSWER = "/discuss/viewAnswer"
     UPLOAD = "/tester/upload"
-    ANALYZE = "/tester/analyze"
     ......
 ```
 ## chatgpt的输出
